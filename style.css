@@ -573,3 +573,24 @@ select:focus {
     outline: 3px solid #000;
     outline-offset: 3px;
 }
+
+
+
+#bloc-8,
+#bloc-8 p,
+#bloc-8 li {
+    color: #000000 !important;
+}
+
+#bloc-8 a {
+    color: #000000 !important;
+    background-color: transparent !important;
+    text-decoration: underline;
+    font-weight: 600;
+    }
+
+#bloc-8 a:hover,
+#bloc-8 a:focus {
+    color: #FFFFFF !important;
+    background-color: #000000 !important;
+}
