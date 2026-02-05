@@ -556,3 +556,20 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+
+
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+}
+
+:focus-visible {
+    outline: 3px solid #000;
+    outline-offset: 3px;
+}
